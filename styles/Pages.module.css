@@ -63,6 +63,7 @@
   margin-left: 135px;
   width: 500px;
   font-size: 40px;
+  color: #030942;
 }
 .WhatWeHave {
   position: relative;
@@ -71,6 +72,7 @@
   font-weight: 700;
   width: 500px;
   margin-left: 135px;
+  color: #0B5FFF;
 }
 .QuoteBtn{
   position: relative;
