@@ -38,6 +38,8 @@ export default function navbar() {
             <Link href="">Contact Us</Link>
           </li>
         </ul>
+
+        <button className={Styles.Request}>Request A Quote</button>
       </nav>
     </>
   );

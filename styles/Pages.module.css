@@ -19,6 +19,8 @@
 }
 .NavUl {
   position: relative;
+  top: -133px;
+  margin-left: 900px;
   list-style: none;
   text-decoration: none;
   display: flex;
@@ -31,4 +33,19 @@
 }
 .NavLi:hover{
   color: rgb(4, 17, 29);
+}
+.Request{
+  position: relative;
+  top: -196px;
+  margin-left: 1600px;
+  height: 50px;
+  width: 150px;
+  border-radius: 50px;
+  border: none;
+  background-color: black;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-weight: 700;
+  font-size: small;
+  cursor: pointer;
 }
