@@ -1,0 +1,34 @@
+.NavBar {
+  background-color: rgb(255, 255, 255);
+  height: 90px;
+  position: sticky;
+  box-shadow: rgba(4, 17, 29, 0.72) 0px 0px 18px 0px;
+}
+.NavLogo {
+  position: relative;
+  top: 9px;
+  margin-left: 120px;
+}
+.LogoImg {
+  border-radius: 50%;
+}
+.ExpediuzBranding {
+  position: relative;
+  top: -72px;
+  margin-left: 216px;
+}
+.NavUl {
+  position: relative;
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+}
+.NavLi {
+  margin: 10px;
+  font-weight: 700;
+  font-size: 18px;
+  color: rgba(4, 17, 29, 0.75);
+}
+.NavLi:hover{
+  color: rgb(4, 17, 29);
+}
