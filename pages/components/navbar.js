@@ -39,7 +39,7 @@ export default function navbar() {
           </li>
         </ul>
 
-        <button className={Styles.Request}>Request A Quote</button>
+        <button className={Styles.RequestBtn}>Request A Quote</button>
       </nav>
     </>
   );

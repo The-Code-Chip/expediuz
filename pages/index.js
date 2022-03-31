@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Styles from "../styles/Pages.module.css";
 import NavBar from "./components/navbar";
+import ServerImg from "../public/assets/images/vectors/Servers Illustration.svg";
 
 export default function Home() {
   return (
@@ -13,6 +14,30 @@ export default function Home() {
       </Head>
 
       <NavBar />
+
+      <div className={Styles.OurSlogan}>
+        <span className={Styles.ServersIllustration}>
+          <Image
+            src={ServerImg}
+            alt="Servers Illustration"
+            height={720}
+            width={720}
+          />
+        </span>
+
+        <h2 className={Styles.SloganText}>
+          Get Sharp, Sleek & Sensible Results at your Fingertips!
+        </h2>
+
+        <p className={Styles.WhatWeHave}>
+          With Ultrafast Server Instances, an experienced developer team and
+          personal customer service, achieve the best results, what we have to
+          offer you! The lowest subscriptions ranks us among our competitors.
+        </p>
+
+        <button className={Styles.QuoteBtn}>Request A Quote ?</button>
+        <button className={Styles.OfferBtn}>What We Offer ?</button>
+      </div>
     </>
   );
 }
