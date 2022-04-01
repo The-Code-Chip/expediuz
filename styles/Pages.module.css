@@ -72,9 +72,9 @@
   font-weight: 700;
   width: 500px;
   margin-left: 135px;
-  color: #0B5FFF;
+  color: #0b5fff;
 }
-.QuoteBtn{
+.QuoteBtn {
   position: relative;
   top: -620px;
   margin-left: 130px;
@@ -89,7 +89,7 @@
   font-size: medium;
   cursor: pointer;
 }
-.OfferBtn{
+.OfferBtn {
   position: relative;
   top: -620px;
   margin-left: 100px;
@@ -103,4 +103,12 @@
   font-weight: 700;
   font-size: medium;
   cursor: pointer;
+}
+.Featured1 {
+  height: 840px;
+}
+.CloudVMIllustration{
+  position: relative;
+  top: 120px;
+  margin-left: 120px;
 }
