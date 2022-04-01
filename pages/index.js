@@ -48,6 +48,12 @@ export default function Home() {
             height={630}
           />
         </span>
+
+        <h2 className={Styles.Featured1Head}>
+          Exclusive Remote Desktops At Unbeatable Prices!
+        </h2>
+
+        <p className={Styles.SpecialInOurRDPs}>Unlimited Bandwidths ? Ultrafast SSD Storages ? Graphics Engine ? Top Notch Intel & AMD CPUs ? What More ? <br></br> We have it all!</p>
       </div>
     </>
   );
