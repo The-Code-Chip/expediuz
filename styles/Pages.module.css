@@ -1,7 +1,10 @@
 .NavBar {
-  background-color: rgb(255, 255, 255);
-  height: 5.625rem;
+  background-color: rgba(255, 255, 255, 0.72);
+  height: 4.7vw;
+  z-index: 1;
   position: sticky;
+  position: -webkit-sticky;
+  top: 0;
   box-shadow: rgba(4, 17, 29, 0.72) 0px 0px 18px 0px;
 }
 .NavLogo {
@@ -19,16 +22,16 @@
 }
 .NavUl {
   position: relative;
-  top: -8.313rem;
-  margin-left: 56.25rem;
+  top: -6.9vw;
+  margin-left: 47vw;
   list-style: none;
   text-decoration: none;
   display: flex;
 }
 .NavLi {
-  margin: 0.625rem;
+  margin: 0.5vw;
   font-weight: 700;
-  font-size: 1.125rem;
+  font-size: 18px;
   color: rgba(4, 17, 29, 0.75);
 }
 .NavLi:hover {
@@ -36,11 +39,11 @@
 }
 .RequestBtn {
   position: relative;
-  top: -12.25rem;
-  margin-left: 100rem;
-  height: 3.125rem;
-  width: 9.375rem;
-  border-radius: 3.125rem;
+  top: -10.2vw;
+  margin-left: 84vw;
+  height: 2.7vw;
+  width: 8vw;
+  border-radius: 50px;
   border: none;
   background-color: black;
   font-family: "Poppins", sans-serif;
@@ -49,84 +52,104 @@
   font-size: small;
   cursor: pointer;
 }
+
+/*CSS For The Divison Of Our Branding & Slogan*/
 .OurSlogan {
   background-color: #b3e0ff;
-  height: 45rem;
+  height: 36vw;
 }
+
+/*CSS For The Illustration Depicting Our OP Servers*/
 .ServersIllustration {
   position: relative;
-  margin-left: 64.375rem;
+  margin-left: 54vw;
 }
+
+/*CSS For Our OP Slogan "Sharp, Sleek & Sensible"*/
 .SloganText {
   position: relative;
-  top: -41.25rem;
-  margin-left: 8.438rem;
-  width: 31.25rem;
-  font-size: 2.5rem;
+  top: -35vw;
+  margin-left: 6.5vw;
+  width: 27vw;
+  font-size: 40px;
   color: #030942;
 }
+
+/*CSS For The Special Feauters That We Have, And Why We Lead The Crowd*/
 .WhatWeHave {
   position: relative;
-  top: -40.625rem;
-  font-size: 1.25rem;
+  top: -34vw;
+  font-size: 20px;
   font-weight: 700;
-  width: 31.25rem;
-  margin-left: 8.438rem;
+  width: 27vw;
+  margin-left: 6.5vw;
   color: #396caa;
 }
+
+/*CSS For The Button Linking To A Form, Where The User Can Request A Service With Personal Attention*/
 .QuoteBtn {
   position: relative;
-  top: -38.75rem;
-  margin-left: 8.125rem;
-  height: 4.375rem;
-  width: 12.5rem;
-  border-radius: 3.125rem;
+  top: -32vw;
+  margin-left: 6.5vw;
+  height: 3.5vw;
+  width: 10vw;
+  border-radius: 50px;
   border: none;
   background-color: black;
   font-family: "Poppins", sans-serif;
   color: white;
   font-weight: 700;
-  font-size: medium;
+  font-size: 15px;
   cursor: pointer;
 }
+
+/*CSS For The Button Linking To All Our Services We Offer*/
 .OfferBtn {
   position: relative;
-  top: -38.75rem;
-  margin-left: 6.25rem;
-  height: 4.375rem;
-  width: 12.5rem;
-  border-radius: 3.125rem;
+  top: -32vw;
+  margin-left: 6vw;
+  height: 3.5vw;
+  width: 10vw;
+  border-radius: 50px;
   border: none;
   background-color: black;
   font-family: "Poppins", sans-serif;
   color: white;
   font-weight: 700;
-  font-size: medium;
+  font-size: 15px;
   cursor: pointer;
 }
+
+/*CSS For The Div Of Our Feautured Service #1*/
 .Featured1 {
-  height: 52.5rem;
+  height: 44vw;
 }
+
+/*CSS For Image Of Our Featured Service #1*/
 .CloudVMIllustration {
   position: relative;
-  top: 7.5rem;
-  margin-left: 7.5rem;
+  top: 6vw;
+  margin-left: 7vw;
 }
+
+/*CSS For Heading Of Our Feautred Service #1*/
 .Featured1Head {
   position: relative;
-  top: -29.375rem;
-  margin-left: 74.375rem;
-  width: 31.25rem;
-  font-size: 2.5rem;
+  top: -25vw;
+  margin-left: 62vw;
+  width: 27vw;
+  font-size: 40px;
   color: #030942;
 }
+
+/*CSS For Text Speaking About The Goodies In Our Feautred Service #1*/
 .SpecialInOurRDPs {
   position: relative;
-  top: -28.125rem;
-  font-size: 1.25rem;
+  top: -24vw;
+  font-size: 20px;
   font-weight: 700;
-  width: 31.25rem;
-  margin-left: 74.375rem;
+  width: 21vw;
+  margin-left: 62vw;
   color: #2e72f0;
 }
 
