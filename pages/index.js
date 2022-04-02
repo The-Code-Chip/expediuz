@@ -6,6 +6,10 @@ import ServerImg from "../public/assets/images/vectors/Servers Illustration.svg"
 import CloudVMImg from "../public/assets/images/vectors/Cloud Virtual Machines Illustration.svg";
 
 export default function Home() {
+
+  
+
+  
   return (
     <>
       <Head>
@@ -16,14 +20,13 @@ export default function Home() {
       <NavBar />
 
       <div className={Styles.OurSlogan}>
-        <span className={Styles.ServersIllustration}>
+        <div className={Styles.ServersIllustration}>
           <Image
             src={ServerImg}
             alt="Servers Illustration"
-            height={720}
-            width={720}
+            layout="fill"
           />
-        </span>
+        </div>
 
         <h2 className={Styles.SloganText}>
           Get Sharp, Sleek & Sensible Results at your Fingertips!
@@ -40,14 +43,13 @@ export default function Home() {
       </div>
 
       <div className={Styles.Featured1}>
-        <span className={Styles.CloudVMIllustration}>
+        <div className={Styles.CloudVMIllustration}>
           <Image
             src={CloudVMImg}
             alt="Cloud Virtual Machine Illustration"
-            width={630}
-            height={630}
+            layout="fill"
           />
-        </span>
+        </div>
 
         <h2 className={Styles.Featured1Head}>
           Exclusive Remote Desktops At Unbeatable Prices!

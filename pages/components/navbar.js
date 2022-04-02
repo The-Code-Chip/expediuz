@@ -8,7 +8,7 @@ export default function navbar() {
   return (
     <>
       <nav className={Styles.NavBar}>
-        <span className={Styles.NavLogo}>
+        <div className={Styles.NavLogo}>
           <Image
             className={Styles.LogoImg}
             src={Logo}
@@ -16,7 +16,7 @@ export default function navbar() {
             width={72}
             height={72}
           />
-        </span>
+        </div>
         <h2 className={Styles.ExpediuzBranding}>
           Expediuz Information Services
         </h2>

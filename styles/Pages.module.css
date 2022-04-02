@@ -1,3 +1,5 @@
+/*NavBar*/
+/*CSS For The Navigation Bar*/
 .NavBar {
   background-color: rgba(255, 255, 255, 0.72);
   height: 4.7vw;
@@ -7,19 +9,32 @@
   top: 0;
   box-shadow: rgba(4, 17, 29, 0.72) 0px 0px 18px 0px;
 }
+
+/*CSS For The NavBar Logo*/
 .NavLogo {
   position: relative;
-  top: 0.563rem;
-  margin-left: 7.5rem;
+  top: 0.5vw;
+  margin-left: 6.5vw;
+  width: 4vw;
+  height: 4vw;
+  maxHeight: 4vw;
+  maxWidth: 4vw;
 }
+
+/*CSS For The Logo Illustration*/
 .LogoImg {
   border-radius: 50%;
 }
+
+/*Logo For The Name "Expediuz Information Services Pvt. Ltd."*/
 .ExpediuzBranding {
   position: relative;
-  top: -4.5rem;
-  margin-left: 13.5rem;
+  top: -3.7vw;
+  margin-left: 12vw;
+  font-size: 1.25vw;
 }
+
+/*CSS For The Unordered List Containing Options In The NavBar*/
 .NavUl {
   position: relative;
   top: -6.9vw;
@@ -28,15 +43,21 @@
   text-decoration: none;
   display: flex;
 }
+
+/*CSS For Each Option In the NavBar*/
 .NavLi {
   margin: 0.5vw;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 1vw;
   color: rgba(4, 17, 29, 0.75);
 }
+
+/*CSS For Changing The Colour Of The NavBar Options When Hovered*/
 .NavLi:hover {
   color: rgb(4, 17, 29);
 }
+
+/*CSS For The "Request A Quote" Button*/
 .RequestBtn {
   position: relative;
   top: -10.2vw;
@@ -49,10 +70,11 @@
   font-family: "Poppins", sans-serif;
   color: white;
   font-weight: 700;
-  font-size: small;
+  font-size: 0.6vw;
   cursor: pointer;
 }
 
+/*Expediuz Slogan*/
 /*CSS For The Divison Of Our Branding & Slogan*/
 .OurSlogan {
   background-color: #b3e0ff;
@@ -63,23 +85,27 @@
 .ServersIllustration {
   position: relative;
   margin-left: 54vw;
+  width: 36vw;
+  height: 36vw;
+  maxHeight: 36vw;
+  maxWidth: 36vw;
 }
 
 /*CSS For Our OP Slogan "Sharp, Sleek & Sensible"*/
 .SloganText {
   position: relative;
-  top: -35vw;
+  top: -34vw;
   margin-left: 6.5vw;
   width: 27vw;
-  font-size: 40px;
+  font-size: 2.1vw;
   color: #030942;
 }
 
 /*CSS For The Special Feauters That We Have, And Why We Lead The Crowd*/
 .WhatWeHave {
   position: relative;
-  top: -34vw;
-  font-size: 20px;
+  top: -33vw;
+  font-size: 1.05vw;
   font-weight: 700;
   width: 27vw;
   margin-left: 6.5vw;
@@ -89,7 +115,7 @@
 /*CSS For The Button Linking To A Form, Where The User Can Request A Service With Personal Attention*/
 .QuoteBtn {
   position: relative;
-  top: -32vw;
+  top: -30vw;
   margin-left: 6.5vw;
   height: 3.5vw;
   width: 10vw;
@@ -99,14 +125,14 @@
   font-family: "Poppins", sans-serif;
   color: white;
   font-weight: 700;
-  font-size: 15px;
+  font-size: 0.75vw;
   cursor: pointer;
 }
 
 /*CSS For The Button Linking To All Our Services We Offer*/
 .OfferBtn {
   position: relative;
-  top: -32vw;
+  top: -30vw;
   margin-left: 6vw;
   height: 3.5vw;
   width: 10vw;
@@ -116,13 +142,14 @@
   font-family: "Poppins", sans-serif;
   color: white;
   font-weight: 700;
-  font-size: 15px;
+  font-size: 0.75vw;
   cursor: pointer;
 }
 
+/*Expediuz Featured Service #1*/
 /*CSS For The Div Of Our Feautured Service #1*/
 .Featured1 {
-  height: 44vw;
+  height: 45vw;
 }
 
 /*CSS For Image Of Our Featured Service #1*/
@@ -130,6 +157,10 @@
   position: relative;
   top: 6vw;
   margin-left: 7vw;
+  width: 36vw;
+  height: 36vw;
+  maxHeight: 36vw;
+  maxWidth: 36vw;
 }
 
 /*CSS For Heading Of Our Feautred Service #1*/
@@ -138,7 +169,7 @@
   top: -25vw;
   margin-left: 62vw;
   width: 27vw;
-  font-size: 40px;
+  font-size: 2.1vw;
   color: #030942;
 }
 
@@ -146,7 +177,7 @@
 .SpecialInOurRDPs {
   position: relative;
   top: -24vw;
-  font-size: 20px;
+  font-size: 1.05vw;
   font-weight: 700;
   width: 21vw;
   margin-left: 62vw;
