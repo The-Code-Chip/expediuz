@@ -17,8 +17,6 @@
   margin-left: 6.5vw;
   width: 4vw;
   height: 4vw;
-  maxHeight: 4vw;
-  maxWidth: 4vw;
 }
 
 /*CSS For The Logo Illustration*/
@@ -87,8 +85,6 @@
   margin-left: 54vw;
   width: 36vw;
   height: 36vw;
-  maxHeight: 36vw;
-  maxWidth: 36vw;
 }
 
 /*CSS For Our OP Slogan "Sharp, Sleek & Sensible"*/
@@ -145,45 +141,138 @@
   font-size: 0.75vw;
   cursor: pointer;
 }
+/*End Of CSS For The Navigation Bar*/
 
-/*Expediuz Featured Service #1*/
-/*CSS For The Div Of Our Feautured Service #1*/
-.Featured1 {
-  height: 45vw;
-}
-
-/*CSS For Image Of Our Featured Service #1*/
-.CloudVMIllustration {
+/*CSS Used At Multiple Places*/
+/*CSS For Illustration Of Our Featured Services*/
+.FeaturedIllustration {
   position: relative;
-  top: 6vw;
-  margin-left: 7vw;
   width: 36vw;
   height: 36vw;
-  maxHeight: 36vw;
-  maxWidth: 36vw;
 }
 
-/*CSS For Heading Of Our Feautred Service #1*/
-.Featured1Head {
+/*CSS For Heading Of Our Feautred Services*/
+.FeaturedHeading {
   position: relative;
-  top: -25vw;
+  top: -32vw;
   margin-left: 62vw;
   width: 27vw;
   font-size: 2.1vw;
   color: #030942;
 }
 
-/*CSS For Text Speaking About The Goodies In Our Feautred Service #1*/
-.SpecialInOurRDPs {
+/*CSS For Text Speaking About The Goodies In Our Feautred Services*/
+.SpecialInOurServices {
   position: relative;
-  top: -24vw;
+  
   font-size: 1.05vw;
   font-weight: 700;
   width: 21vw;
-  margin-left: 62vw;
   color: #2e72f0;
 }
 
+/*CSS For The Get Into It Button*/
+.GetIntoItBtn{
+  position: relative;
+  height: 3.5vw;
+  width: 10vw;
+  border-radius: 50px;
+  border: none;
+  background-color: black;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-weight: 700;
+  font-size: 0.75vw;
+  cursor: pointer;
+}
+/*End Of Multiple Use CSS*/
+
+/*Expediuz Featured Service #1*/
+/*CSS For The Div Of Our Feautured Service #1*/
+.Featured1 {
+  height: 45vw;
+}
+.Featured1 .FeaturedIllustration{
+  top: 5vw;
+  margin-left: 7vw;
+}
+.Featured1 .FeaturedHeading {
+  top: -32vw;
+  margin-left: 62vw;
+}
+.Featured1 .SpecialInOurServices {
+  top: -31vw;
+  margin-left: 62vw;
+}
+.Featured1 .GetIntoItBtn {
+  top: -29vw;
+  margin-left: 61.5vw;
+}
+/*End Of CSS For Featured Service #1*/
+
+/*Expediuz Featured Service #2*/
+/*CSS For The Div Of Our Feautured Service #2*/
+.Featured2 {
+  background-color: #b3e0ff;
+  height: 45vw;
+}
+.Featured2 .FeaturedIllustration{
+  top: 5vw;
+  margin-left: 54vw;
+}
+.Featured2 .FeaturedHeading {
+  top: -32vw;
+  margin-left: 6.5vw;
+}
+.Featured2 .SpecialInOurServices {
+  top: -31vw;
+  margin-left: 6.5vw;
+}
+.Featured2 .GetIntoItBtn {
+  top: -29vw;
+  margin-left: 6vw;
+}
+/*End Of CSS For Featured Service #2*/
+
+/*Expediuz Featured Service #3*/
+/*CSS For The Div Of Our Feautured Service #3*/
+.Featured3 {
+  background-color: #ffffff;
+  height: 45vw;
+}
+.Featured3 .FeaturedIllustration{
+  top: 5vw;
+  margin-left: 6.5vw;
+}
+.Featured3 .FeaturedHeading {
+  top: -32vw;
+  margin-left: 62vw;
+}
+.Featured3 .SpecialInOurServices {
+  top: -31vw;
+  margin-left: 62vw;
+}
+.Featured3 .GetIntoItBtn {
+  top: -29vw;
+  margin-left: 61.5vw;
+}
+
+
+
+.Footer{
+  height: 20vw;
+  background-color: black;
+}
+.FooterLogo{
+  position: relative;
+  top: 0.5vw;
+  margin-left: 6.5vw;
+  width: 4vw;
+  height: 4vw;
+}
+.FooterLogoImg{
+  border-radius: 50%;   
+}
 /*Responsiveness*/
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {

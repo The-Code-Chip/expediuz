@@ -2,14 +2,13 @@ import Head from "next/head";
 import Image from "next/image";
 import Styles from "../styles/Pages.module.css";
 import NavBar from "./components/navbar";
+import Footer from "./components/footer";
 import ServerImg from "../public/assets/images/vectors/Servers Illustration.svg";
 import CloudVMImg from "../public/assets/images/vectors/Cloud Virtual Machines Illustration.svg";
+import HostingImg from "../public/assets/images/vectors/Hosting Illustration.svg";
+import DatabaseImg from "../public/assets/images/vectors/Database Illustration.svg";
 
 export default function Home() {
-
-  
-
-  
   return (
     <>
       <Head>
@@ -43,7 +42,7 @@ export default function Home() {
       </div>
 
       <div className={Styles.Featured1}>
-        <div className={Styles.CloudVMIllustration}>
+        <div className={Styles.FeaturedIllustration}>
           <Image
             src={CloudVMImg}
             alt="Cloud Virtual Machine Illustration"
@@ -51,12 +50,52 @@ export default function Home() {
           />
         </div>
 
-        <h2 className={Styles.Featured1Head}>
-          Exclusive Remote Desktops At Unbeatable Prices!
+        <h2 className={Styles.FeaturedHeading}>
+          Exclusive Remote Desktops & Elastic Cloud Computes!
         </h2>
 
-        <p className={Styles.SpecialInOurRDPs}>Unlimited Bandwidths ? Ultrafast SSD Storages ? Graphics Engine ? Top Notch Intel & AMD CPUs ? What More ? <br></br> We have it all!</p>
+        <p className={Styles.SpecialInOurServices}>Unlimited Bandwidths ? Ultrafast SSD Storages ? Graphics Engine ? Top Notch Intel & AMD CPUs ? Windows, Mac OS, Linux Servers ? Scalable Computing ? Developer -Friendly Budgets ? What More ? <br></br> We have it all!<br></br> Get It Now !</p>
+
+        <button className={Styles.GetIntoItBtn}>Get Into It ?</button>
       </div>
+
+      <div className={Styles.Featured2}>
+        <div className={Styles.FeaturedIllustration}>
+          <Image
+            src={HostingImg}
+            alt="Cloud Hosting Illustration"
+            layout="fill"
+          />
+        </div>
+
+        <h2 className={Styles.FeaturedHeading}>
+          Dynamic Hosting Made Easy!
+        </h2>
+
+        <p className={Styles.SpecialInOurServices}>Scalable Hosting Solutions! Host & Deploy A Python, PHP, Node JS, Static HTML Web App or Test APIs Easily & Efficiently! <br></br> Budget Friendly Hosting Solutions ? Free SSL Certificate ? Custom Domains, DNS Management & Nameservers ? All In A Single Subscription! <br></br> We provide it all! <br></br> Get It Now !</p>
+
+        <button className={Styles.GetIntoItBtn}>Get Into It ?</button>
+      </div>
+
+      <div className={Styles.Featured3}>
+        <div className={Styles.FeaturedIllustration}>
+          <Image
+            src={DatabaseImg}
+            alt="Database Illustration"
+            layout="fill"
+          />
+        </div>
+
+        <h2 className={Styles.FeaturedHeading}>
+          Database Management? Not A Headache Anymore!
+        </h2>
+
+        <p className={Styles.SpecialInOurServices}>Your Data, Secured With 2FA Encryption! Full Administrator Controls, Built To Gift Perfection To Your Tech Ambitions! From Realtime Databases To Cloud Storage,<br></br> We provide it all! <br></br> Get It Now !</p>
+
+        <button className={Styles.GetIntoItBtn}>Get Into It ?</button>
+      </div>
+
+      <Footer />
     </>
   );
 }

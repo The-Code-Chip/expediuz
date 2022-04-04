@@ -13,8 +13,7 @@ export default function navbar() {
             className={Styles.LogoImg}
             src={Logo}
             alt="Expediuz Logo"
-            width={72}
-            height={72}
+            layout="fill"
           />
         </div>
         <h2 className={Styles.ExpediuzBranding}>
