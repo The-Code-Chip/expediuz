@@ -13,7 +13,7 @@
 /*CSS For The NavBar Logo*/
 .NavLogo {
   position: relative;
-  top: 0.5vw;
+  top: 0.3vw;
   margin-left: 6.5vw;
   width: 4vw;
   height: 4vw;
@@ -141,7 +141,7 @@
   font-size: 0.75vw;
   cursor: pointer;
 }
-/*End Of CSS For The Navigation Bar*/
+/*End Of CSS For Branding & Slogan*/
 
 /*CSS Used At Multiple Places*/
 /*CSS For Illustration Of Our Featured Services*/
@@ -154,8 +154,6 @@
 /*CSS For Heading Of Our Feautred Services*/
 .FeaturedHeading {
   position: relative;
-  top: -32vw;
-  margin-left: 62vw;
   width: 27vw;
   font-size: 2.1vw;
   color: #030942;
@@ -164,7 +162,6 @@
 /*CSS For Text Speaking About The Goodies In Our Feautred Services*/
 .SpecialInOurServices {
   position: relative;
-  
   font-size: 1.05vw;
   font-weight: 700;
   width: 21vw;
@@ -172,7 +169,7 @@
 }
 
 /*CSS For The Get Into It Button*/
-.GetIntoItBtn{
+.GetIntoItBtn {
   position: relative;
   height: 3.5vw;
   width: 10vw;
@@ -192,7 +189,7 @@
 .Featured1 {
   height: 45vw;
 }
-.Featured1 .FeaturedIllustration{
+.Featured1 .FeaturedIllustration {
   top: 5vw;
   margin-left: 7vw;
 }
@@ -216,7 +213,7 @@
   background-color: #b3e0ff;
   height: 45vw;
 }
-.Featured2 .FeaturedIllustration{
+.Featured2 .FeaturedIllustration {
   top: 5vw;
   margin-left: 54vw;
 }
@@ -240,7 +237,7 @@
   background-color: #ffffff;
   height: 45vw;
 }
-.Featured3 .FeaturedIllustration{
+.Featured3 .FeaturedIllustration {
   top: 5vw;
   margin-left: 6.5vw;
 }
@@ -257,25 +254,161 @@
   margin-left: 61.5vw;
 }
 
-
-
-.Footer{
+.Footer {
   height: 20vw;
   background-color: black;
 }
-.FooterLogo{
+.FooterLogo {
   position: relative;
   top: 0.5vw;
   margin-left: 6.5vw;
   width: 4vw;
   height: 4vw;
 }
-.FooterLogoImg{
-  border-radius: 50%;   
+.FooterLogoImg {
+  border-radius: 50%;
 }
 /*Responsiveness*/
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  /*Responsive CSS For NavBar*/
+  .NavBar {
+    height: 12vw;
+  }
+  .NavLogo {
+    top: 0.9vw;
+    margin-left: 5vw;
+    width: 10vw;
+    height: 10vw;
+  }
+  .ExpediuzBranding {
+    top: -9.5vw;
+    margin-left: 18vw;
+    font-size: 3.6vw;
+  }
+  .NavUl,
+  .NavLi,
+  .RequestBtn {
+    display: none;
+  }
+  /*End Of Responsive CSS For NavBar*/
+
+  /*Responsive CSS For Branding & Slogan*/
+  .OurSlogan {
+    height: 120vw;
+  }
+  .ServersIllustration {
+    margin-left: 10vw;
+    width: 72vw;
+    height: 72vw;
+  }
+  .SloganText {
+    top: -5vw;
+    margin-left: 20vw;
+    width: 60vw;
+    font-size: 4vw;
+  }
+  .WhatWeHave {
+    top: -5vw;
+    font-size: 2.1vw;
+    width: 60vw;
+    margin-left: 20vw;
+  }
+  .QuoteBtn {
+    top: -3vw;
+    margin-left: 19vw;
+    height: 7vw;
+    width: 27vw;
+    font-size: 2vw;
+  }
+  .OfferBtn {
+    top: -3vw;
+    margin-left: 8vw;
+    height: 7vw;
+    width: 27vw;
+    font-size: 2vw;
+  }
+  /*End Of Responsive CSS For Branding & Slogan*/
+
+  .FeaturedIllustration {
+    width: 72vw;
+    height: 72vw;
+  }
+  .FeaturedHeading {
+    top: -32vw;
+    margin-left: 1vw;
+    width: 60vw;
+    font-size: 4vw;
+  }
+  .SpecialInOurServices{
+    width: 60vw;
+    font-size: 2.1vw;
+  }
+  .GetIntoItBtn {
+    height: 7vw;
+    width: 27vw;
+    font-size: 2vw;
+  }
+
+  .Featured1 {
+    height: 150vw;
+  }
+  .Featured1 .FeaturedIllustration {
+    top: 10vw;
+    margin-left: 10vw;
+  }
+  .Featured1 .FeaturedHeading {
+    top: 15vw;
+    margin-left: 20vw;
+  }
+  .Featured1 .SpecialInOurServices {
+    top: 15vw;
+    margin-left: 20vw;
+  }
+  .Featured1 .GetIntoItBtn {
+    top: 18vw;
+    margin-left: 19.25vw;
+  }
+
+  .Featured2 {
+    height: 150vw;
+  }
+  .Featured2 .FeaturedIllustration {
+    top: 10vw;
+    margin-left: 10vw;
+  }
+  .Featured2 .FeaturedHeading {
+    top: 15vw;
+    margin-left: 20vw;
+  }
+  .Featured2 .SpecialInOurServices {
+    top: 15vw;
+    margin-left: 20vw;
+  }
+  .Featured2 .GetIntoItBtn {
+    top: 18vw;
+    margin-left: 19.25vw;
+  }
+
+  .Featured3 {
+    height: 150vw;
+  }
+  .Featured3 .FeaturedIllustration {
+    top: 10vw;
+    margin-left: 10vw;
+  }
+  .Featured3 .FeaturedHeading {
+    top: 15vw;
+    margin-left: 20vw;
+  }
+  .Featured3 .SpecialInOurServices {
+    top: 15vw;
+    margin-left: 20vw;
+  }
+  .Featured3 .GetIntoItBtn {
+    top: 18vw;
+    margin-left: 19.25vw;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
