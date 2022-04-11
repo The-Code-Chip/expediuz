@@ -22,19 +22,19 @@ export default function navbar() {
 
         <ul className={Styles.NavUl}>
           <li className={Styles.NavLi}>
-            <Link href="">Home</Link>
+            <Link href="/">Home</Link>
           </li>
           <li className={Styles.NavLi}>
-            <Link href="">Our Services</Link>
+            <Link href="/services">Our Services</Link>
           </li>
           <li className={Styles.NavLi}>
-            <Link href="">Our Portfolio</Link>
+            <Link href="/code">Learn To Code</Link>
           </li>
           <li className={Styles.NavLi}>
-            <Link href="">Learn To Code</Link>
+            <Link href="/about">About Us</Link>
           </li>
           <li className={Styles.NavLi}>
-            <Link href="">Contact Us</Link>
+            <Link href="/contact">Contact Us</Link>
           </li>
         </ul>
 
