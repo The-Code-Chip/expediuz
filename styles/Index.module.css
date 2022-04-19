@@ -72,6 +72,24 @@
   cursor: pointer;
 }
 
+/*Footer*/
+/*CSS For The Footer*/
+.Footer {
+  height: 20vw;
+  background-color: black;
+}
+.FooterLogo {
+  position: relative;
+  top: 0.5vw;
+  margin-left: 6.5vw;
+  width: 4vw;
+  height: 4vw;
+}
+.FooterLogoImg {
+  border-radius: 50%;
+}
+
+/*CSS For The Home Page*/
 /*Expediuz Slogan*/
 /*CSS For The Divison Of Our Branding & Slogan*/
 .OurSlogan {
@@ -253,21 +271,9 @@
   top: -29vw;
   margin-left: 61.5vw;
 }
+/*End Of CSS For Featured Service #3*/
+/*End Of CSS For Home Page*/
 
-.Footer {
-  height: 20vw;
-  background-color: black;
-}
-.FooterLogo {
-  position: relative;
-  top: 0.5vw;
-  margin-left: 6.5vw;
-  width: 4vw;
-  height: 4vw;
-}
-.FooterLogoImg {
-  border-radius: 50%;
-}
 /*Responsiveness*/
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
