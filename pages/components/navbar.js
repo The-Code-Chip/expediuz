@@ -25,7 +25,7 @@ export default function navbar() {
             <Link href="/">Home</Link>
           </li>
           <li className={Styles.NavLi}>
-            <Link href="/services">Our Services</Link>
+            <Link href="/services/">Our Services</Link>
           </li>
           <li className={Styles.NavLi}>
             <Link href="/code">Learn To Code</Link>
@@ -38,7 +38,7 @@ export default function navbar() {
           </li>
         </ul>
 
-        <button className={Styles.RequestBtn}>Request A Quote</button>
+        <button className={Styles.ConsoleBtn}>Console</button>
       </nav>
     </>
   );

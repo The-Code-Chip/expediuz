@@ -55,8 +55,8 @@
   color: rgb(4, 17, 29);
 }
 
-/*CSS For The "Request A Quote" Button*/
-.RequestBtn {
+/*CSS For The "Console" Button*/
+.ConsoleBtn {
   position: relative;
   top: -10.2vw;
   margin-left: 84vw;
@@ -68,7 +68,7 @@
   font-family: "Poppins", sans-serif;
   color: white;
   font-weight: 700;
-  font-size: 0.6vw;
+  font-size: 0.81vw;
   cursor: pointer;
 }
 

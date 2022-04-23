@@ -1,6 +1,47 @@
-.AllServices {
-  height: 25vw;
+.Services {
+  text-align: center;
+  height: 10vw;
 }
 .ServicesHeading {
-    position: relative;
+  position: relative;
+  top: 1.2vw;
+  font-size: 2.1vw;
+}
+.PepTalkAboutServices {
+  font-size: 1.05vw;
+  font-weight: 700;
+}
+
+.ServHead {
+  position: relative;
+  top: 1.2vw;
+  font-size: 1.8vw;
+}
+.ServDesc {
+  width: 30vw;
+  font-size: 1.05vw;
+  font-weight: 700;
+}
+.ServImg {
+  position: relative;
+  width: 27vw;
+  height: 27vw;
+}
+
+.Serv1 .ServImg {
+  left: 57.5vw;
+}
+
+.GetIntoItBtn {
+  position: relative;
+  height: 3.5vw;
+  width: 10vw;
+  border-radius: 50px;
+  border: none;
+  background-color: black;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-weight: 700;
+  font-size: 0.75vw;
+  cursor: pointer;
 }

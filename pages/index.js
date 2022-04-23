@@ -51,7 +51,7 @@ export default function Home() {
         </div>
 
         <h2 className={Styles.FeaturedHeading}>
-          Exclusive Remote Desktops & Elastic Cloud Computes!
+          Exclusive Remotes Elastic Cloud Computes!
         </h2>
 
         <p className={Styles.SpecialInOurServices}>Unlimited Bandwidths ? Ultrafast SSD Storages ? Graphics Engine ? Top Notch Intel & AMD CPUs ? Windows, Mac OS, Linux Servers ? Scalable Computing ? Developer -Friendly Budgets ? What More ? <br></br> We have it all!<br></br> Get It Now !</p>
