@@ -31,8 +31,8 @@ export default function OurServices() {
         <p className={ServicesStyles.ServDesc}>
           Expediuz Serves You The Next Level Cloud Computer Systems, Which Can
           Be Made Available For Any Purpose And With Any Specifications!
-          <br></br>With Cloud Computing, Your Dream Of Tomorrow Won't Be A
-          Dream! It's Gonna Be A Reality!
+          <br></br>With Cloud Computing, Your Dream Of Tomorrow Won&apos;t Be A
+          Dream! It&apos;s Gonna Be A Reality!
         </p>
         <button className={ServicesStyles.GetIntoItBtn}>
           Check It Out Now!
