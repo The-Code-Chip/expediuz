@@ -14,10 +14,11 @@
 
 .ServHead {
   position: relative;
-  top: 1.2vw;
+
   font-size: 1.8vw;
 }
 .ServDesc {
+  position: relative;
   width: 30vw;
   font-size: 1.05vw;
   font-weight: 700;
@@ -27,11 +28,6 @@
   width: 27vw;
   height: 27vw;
 }
-
-.Serv1 .ServImg {
-  left: 57.5vw;
-}
-
 .GetIntoItBtn {
   position: relative;
   height: 3.5vw;
@@ -44,4 +40,127 @@
   font-weight: 700;
   font-size: 0.75vw;
   cursor: pointer;
+}
+
+.Serv1 {
+  height: 30vw;
+}
+.Serv1 .ServImg {
+  top: -2.7vw;
+  margin-left: 65vw;
+}
+.Serv1 .ServHead {
+  top: 5vw;
+  margin-left: 7.2vw;
+}
+
+.Serv1 .ServDesc {
+  top: -22vw;
+  margin-left: 7.2vw;
+}
+
+.Serv1 .GetIntoItBtn {
+  top: -20vw;
+  margin-left: 7.2vw;
+}
+
+.Serv2 {
+  height: 30vw;
+  background-color: #b3e0ff;
+}
+.Serv2 .ServImg {
+  top: -2.7vw;
+  margin-left: 4vw;
+}
+.Serv2 .ServHead {
+  top: 5vw;
+  margin-left: 60vw;
+}
+.Serv2 .ServDesc {
+  top: -22vw;
+  margin-left: 60vw;
+}
+.Serv2 .GetIntoItBtn {
+  top: -20vw;
+  margin-left: 60vw;
+}
+
+.Serv3 {
+  height: 30vw;
+}
+.Serv3 .ServImg {
+  top: -2.7vw;
+  margin-left: 65vw;
+}
+.Serv3 .ServHead {
+  top: 5vw;
+  margin-left: 7.2vw;
+}
+.Serv3 .ServDesc {
+  top: -22vw;
+  margin-left: 7.2vw;
+}
+.Serv3 .GetIntoItBtn {
+  top: -20vw;
+  margin-left: 7.2vw;
+}
+
+.Serv4 {
+  height: 30vw;
+}
+.Serv4 .ServImg {
+  top: -2.7vw;
+  margin-left: 4vw;
+}
+.Serv4 .ServHead {
+  top: 5vw;
+  margin-left: 60vw;
+}
+.Serv4 .ServDesc {
+  top: -22vw;
+  margin-left: 60vw;
+}
+.Serv4 .GetIntoItBtn {
+  top: -20vw;
+  margin-left: 60vw;
+}
+
+.Serv5 {
+  height: 30vw;
+}
+.Serv5 .ServImg {
+  top: -2.7vw;
+  margin-left: 65vw;
+}
+.Serv5 .ServHead {
+  top: 5vw;
+  margin-left: 7.2vw;
+}
+.Serv5 .ServDesc {
+  top: -22vw;
+  margin-left: 7.2vw;
+}
+.Serv5 .GetIntoItBtn {
+  top: -20vw;
+  margin-left: 7.2vw;
+}
+
+.Serv6 {
+  height: 30vw;
+}
+.Serv6 .ServImg {
+  top: -2.7vw;
+  margin-left: 4vw;
+}
+.Serv6 .ServHead {
+  top: 5vw;
+  margin-left: 60vw;
+}
+.Serv6 .ServDesc {
+  top: -22vw;
+  margin-left: 60vw;
+}
+.Serv6 .GetIntoItBtn {
+  top: -20vw;
+  margin-left: 60vw;
 }

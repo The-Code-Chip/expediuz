@@ -72,6 +72,51 @@
   cursor: pointer;
 }
 
+.NavBtn,
+.NavBtn2 {
+  display: none;
+  position: relative;
+  top: -10.2vw;
+  margin-left: 84vw;
+  border: none;
+  height: 3vw;
+  width: 3vw;
+  border-radius: 10px;
+  background-color: rgba(209, 209, 209, 0.788);
+  cursor: pointer;
+}
+
+.MenuDrawer,
+.MenuCloser {
+  display: none;
+  position: relative;
+  margin-left: 0.18vw;
+  width: 2vw;
+  height: 2vw;
+}
+
+.ResNavUl {
+  display: none;
+  position: relative;
+  list-style: none;
+  text-decoration: none;
+}
+.ResNavBtn {
+  display: none;
+  position: relative;
+  height: 2.7vw;
+  width: 8vw;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(209, 209, 209);
+  font-family: "Poppins", sans-serif;
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+  font-size: 0.81vw;
+  cursor: pointer;
+}
+/*End Of CSS For The Navigation Bar*/
+
 /*Footer*/
 /*CSS For The Footer*/
 .Footer {
@@ -294,8 +339,49 @@
   }
   .NavUl,
   .NavLi,
-  .RequestBtn {
+  .ConsoleBtn {
     display: none;
+  }
+
+  .NavBtn {
+    display: block;
+    top: -18.5vw;
+    height: 7vw;
+    width: 7vw;
+    border-radius: 7px;
+  }
+
+  .NavBtn2 {
+    top: -18.7vw;
+    height: 7vw;
+    width: 7vw;
+    border-radius: 7px;
+  }
+
+  .MenuDrawer {
+    display: block;
+    margin-left: -0.15vw;
+    width: 4.5vw;
+    height: 4.5vw;
+  }
+
+  .MenuCloser {
+    margin-left: -0.15vw;
+    width: 4.5vw;
+    height: 4.5vw;
+  }
+
+  .ResNavUl {
+    top: -13vw;
+    margin-left: 64vw;
+  }
+  .ResNavLi {
+    margin: 1.5vw;
+  }
+  .ResNavBtn {
+    height: 5vw;
+    width: 18vw;
+    font-size: 2vw;
   }
   /*End Of Responsive CSS For NavBar*/
 
@@ -346,7 +432,7 @@
     width: 60vw;
     font-size: 4vw;
   }
-  .SpecialInOurServices{
+  .SpecialInOurServices {
     width: 60vw;
     font-size: 2.1vw;
   }
