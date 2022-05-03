@@ -14,6 +14,7 @@ export default function Home() {
       <Head>
         <title>BackEnd In Minutes - Expediuz Information Services!</title>
         <meta name="description" content="The Best One-Stop Backend Solution! Bringing Backend At Your Fingertips!" />
+        <link rel="shortcut icon" href="../public/Logo Favicon.ico" />
       </Head>
 
       <NavBar />
