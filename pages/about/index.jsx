@@ -39,13 +39,13 @@ export default function AboutUs() {
           Look At Our Certificate!
         </button>
         <h2 className={Styles.StandOutHead}>We Have Something That Makes Us Stand Out!</h2>
-        <p className={Styles.StandOutDesc}>We are strong believers of Deep Work! And it has been proven multiple times that Tech automations can't be more smarter than Human labour. So, what we do is that, we don't always rely on automating our Customer Services. We have our staffs sitting for you who individually handle all your given tasks. We thus aim at providing the best customer experience with 24x7 customer system. The most amazing features of such an implementation are many:
+        <p className={Styles.StandOutDesc}>We are strong believers of Deep Work! And it has been proven multiple times that Tech automations can&apos;t be more smarter than Human labour. So, what we do is that, we don&apos;t always rely on automating our Customer Services. We have our staffs sitting for you who individually handle all your given tasks. We thus aim at providing the best customer experience with 24x7 customer system. The most amazing features of such an implementation are many:
         <br></br>
         <br></br>
         1. There are staffs sitting for you who directly take your requests and process them manually.
         <br></br>
         <br></br>
-        2. You don't need to be a Tech Savvy to use our services. You get to directly talk to the person concerned with your project, who does his best to serve you with the best results ever possible! The user is thus relieved of any kind of headache.
+        2. You don&apos;t need to be a Tech Savvy to use our services. You get to directly talk to the person concerned with your project, who does his best to serve you with the best results ever possible! The user is thus relieved of any kind of headache.
         <br></br>
         <br></br>
         3. The staffs also ensure the ultimate security encyrptions. Customers are provided with 3FA Encryption at no extra costs.
