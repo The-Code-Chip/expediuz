@@ -1,0 +1,53 @@
+.AboutHead {
+  position: relative;
+  top: 1vw;
+  text-align: center;
+  font-size: 2.1vw;
+  font-weight: 700;
+}
+.AboutDesc {
+  position: relative;
+  margin-left: 6.6vw;
+  margin-right: 6.6vw;
+  font-size: 1.05vw;
+  font-weight: 700;
+}
+.GetIntoItBtn {
+  position: relative;
+  left: 40vw;
+  margin-top: 0.35vw;
+  margin-bottom: 2vw;
+  height: 3.5vw;
+  width: 15vw;
+  border-radius: 50px;
+  border: none;
+  background-color: black;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-weight: 700;
+  font-size: 0.75vw;
+  cursor: pointer;
+}
+.StandOutHead {
+  position: relative;
+  top: -2vw;
+  text-align: center;
+  font-size: 2.1vw;
+  font-weight: 700;
+}
+.StandOutDesc {
+  position: relative;
+  top: -2.5vw;
+  margin-left: 6.6vw;
+  margin-right: 6.6vw;
+  font-size: 1.05vw;
+  font-weight: 700;
+}
+.CertificateBox {
+  box-sizing: border-box;
+  width: 120px;
+  height: 120px;
+  border: 20px solid #969696;
+  background: #d9dbda;
+  margin: 10px;
+}
