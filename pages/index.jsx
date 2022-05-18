@@ -3,10 +3,11 @@ import Image from "next/image";
 import Styles from "../styles/Index.module.css";
 import NavBar from "./components/navbar";
 import Footer from "./components/footer";
-import ServerImg from '../public/assets/images/vectors/Servers Illustration.svg'
-import CloudVMImg from '../public/assets/images/vectors/Cloud Virtual Machines Illustration.svg';
-import HostingImg from '../public/assets/images/vectors/Hosting Illustration.svg';
-import DatabaseImg from '../public/assets/images/vectors/Database Illustration.svg';
+
+const ServerImgUrl = "/assets/images/vectors/Servers Illustration.svg"
+const CloudVMImgUrl = "/assets/images/vectors/Cloud Virtual Machines Illustration.svg"
+const HostingImgUrl = "/assets/images/vectors/Hosting Illustration.svg"
+const DatabaseImgUrl = "/assets/images/vectors/Database Illustration.svg"
 
 export default function Home() {
   return (
@@ -22,7 +23,7 @@ export default function Home() {
       <div className={Styles.OurSlogan}>
         <div className={Styles.ServersIllustration}>
           <Image
-            src={ServerImg}
+            src={ServerImgUrl}
             alt="Servers Illustration"
             layout="fill"
           />
@@ -45,7 +46,7 @@ export default function Home() {
       <div className={Styles.Featured1}>
         <div className={Styles.FeaturedIllustration}>
           <Image
-            src={CloudVMImg}
+            src={CloudVMImgUrl}
             alt="Cloud Virtual Machine Illustration"
             layout="fill"
           />
@@ -63,7 +64,7 @@ export default function Home() {
       <div className={Styles.Featured2}>
         <div className={Styles.FeaturedIllustration}>
           <Image
-            src={HostingImg}
+            src={HostingImgUrl}
             alt="Cloud Hosting Illustration"
             layout="fill"
           />
@@ -81,7 +82,7 @@ export default function Home() {
       <div className={Styles.Featured3}>
         <div className={Styles.FeaturedIllustration}>
           <Image
-            src={DatabaseImg}
+            src={DatabaseImgUrl}
             alt="Database Illustration"
             layout="fill"
           />

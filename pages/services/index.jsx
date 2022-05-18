@@ -3,9 +3,10 @@ import Image from "next/image";
 import ServicesStyles from "../../styles/Services.module.css";
 import NavBar from "../components/navbar";
 import Footer from "../components/footer";
-import CloudTop from "../../public/assets/images/vectors/Cloud Virtual Machines Illustration.svg";
-import CloudHosting from "../../public/assets/images/vectors/Hosting Illustration.svg"
-import CloudDB from "../../public/assets/images/vectors/Database Illustration.svg"
+
+const CloudTopUrl = "/assets/images/vectors/Cloud Virtual Machines Illustration.svg"
+const CloudHostingUrl = "/assets/images/vectors/Hosting Illustration.svg"
+const CloudDBUrl = "/assets/images/vectors/Database Illustration.svg"
 
 export default function OurServices() {
   return (
@@ -28,7 +29,7 @@ export default function OurServices() {
         <h2 className={ServicesStyles.ServHead}>CloudTops - Cloud Computing</h2>
         <div className={ServicesStyles.ServImg}>
           <Image
-            src={CloudTop}
+            src={CloudTopUrl}
             alt="Cloud Tops Illustration"
             layout="fill"
           />
@@ -48,7 +49,7 @@ export default function OurServices() {
         <h2 className={ServicesStyles.ServHead}>Host Anything!</h2>
         <div className={ServicesStyles.ServImg}>
           <Image
-            src={CloudHosting}
+            src={CloudHostingUrl}
             alt="Cloud Hosting Illustration"
             layout="fill"
           />
@@ -67,7 +68,7 @@ export default function OurServices() {
         <h2 className={ServicesStyles.ServHead}>CloudBase - Managed Databases<br></br>On The Cloud!</h2>
         <div className={ServicesStyles.ServImg}>
           <Image
-            src={CloudDB}
+            src={CloudDBUrl}
             alt="Cloud DataBase Illustration"
             layout="fill"
           />
@@ -87,7 +88,7 @@ export default function OurServices() {
         <h2 className={ServicesStyles.ServHead}>CloudTops - Cloud Computing</h2>
         <div className={ServicesStyles.ServImg}>
           <Image
-            src={CloudTop}
+            src={CloudTopUrl}
             alt="Cloud Virtual Machine Illustration"
             layout="fill"
           />
@@ -107,7 +108,7 @@ export default function OurServices() {
         <h2 className={ServicesStyles.ServHead}>CloudTops - Cloud Computing</h2>
         <div className={ServicesStyles.ServImg}>
           <Image
-            src={CloudTop}
+            src={CloudTopUrl}
             alt="Cloud Virtual Machine Illustration"
             layout="fill"
           />
@@ -127,7 +128,7 @@ export default function OurServices() {
         <h2 className={ServicesStyles.ServHead}>CloudTops - Cloud Computing</h2>
         <div className={ServicesStyles.ServImg}>
           <Image
-            src={CloudTop}
+            src={CloudTopUrl}
             alt="Cloud Virtual Machine Illustration"
             layout="fill"
           />

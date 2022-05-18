@@ -39,7 +39,7 @@ export default function AboutUs() {
           Look At Our Certificate!
         </button>
         <h2 className={Styles.StandOutHead}>We Have Something That Makes Us Stand Out!</h2>
-        <p className={Styles.StandOutDesc}>We are strong believers of Deep Work! And it has been proven multiple times that Tech automations can&apos;t be more smarter than Human labour. So, what we do is that, we don&apos;t always rely on automating our Customer Services. We have our staffs sitting for you who individually handle all your given tasks. We thus aim at providing the best customer experience with 24x7 customer system. The most amazing features of such an implementation are many:
+        <p className={Styles.StandOutDesc}>We are strong believers of Deep Work! And it has been proven multiple times that Tech automations can&apos;t be more smarter than Human labour. So, what we do is that, we don&apos;t always rely on automating our Customer Services. We have our staffs sitting for you who individually handle all your given tasks. We thus aim at providing the best customer experience with 24x7 customer service system. The most amazing features of such an implementation are many:
         <br></br>
         <br></br>
         1. There are staffs sitting for you who directly take your requests and process them manually.
