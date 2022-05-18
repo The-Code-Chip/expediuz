@@ -3,10 +3,10 @@ import Image from "next/image";
 import Styles from "../styles/Index.module.css";
 import NavBar from "./components/navbar";
 import Footer from "./components/footer";
-import ServerImg from "../public/assets/images/vectors/Servers Illustration.svg";
-import CloudVMImg from "../public/assets/images/vectors/Cloud Virtual Machines Illustration.svg";
-import HostingImg from "../public/assets/images/vectors/Hosting Illustration.svg";
-import DatabaseImg from "../public/assets/images/vectors/Database Illustration.svg";
+import ServerImg from '../public/assets/images/vectors/Servers Illustration.svg'
+import CloudVMImg from '../public/assets/images/vectors/Cloud Virtual Machines Illustration.svg';
+import HostingImg from '../public/assets/images/vectors/Hosting Illustration.svg';
+import DatabaseImg from '../public/assets/images/vectors/Database Illustration.svg';
 
 export default function Home() {
   return (
