@@ -1,12 +1,14 @@
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 import ServicesStyles from "../../styles/Services.module.css";
 import NavBar from "../components/navbar";
 import Footer from "../components/footer";
 
-const CloudTopUrl = "/assets/images/vectors/Cloud Virtual Machines Illustration.svg"
-const CloudHostingUrl = "/assets/images/vectors/Hosting Illustration.svg"
-const CloudDBUrl = "/assets/images/vectors/Database Illustration.svg"
+const CloudTopUrl = "/assets/images/vectors/Cloud Virtual Machines Illustration.svg";
+const CloudHostingUrl = "/assets/images/vectors/Hosting Illustration.svg";
+const CloudDBUrl = "/assets/images/vectors/Database Illustration.svg";
+const DNSManagementUrl = "/assets/images/vectors/DNS Management Illustration.svg";
 
 export default function OurServices() {
   return (
@@ -40,9 +42,10 @@ export default function OurServices() {
           <br></br>With Cloud Computing, Your Dream Of Tomorrow Won&apos;t Be A
           Dream! It&apos;s Gonna Be A Reality!
         </p>
+        <Link href="/services/cloudcompute">
         <button className={ServicesStyles.GetIntoItBtn}>
           Check It Out Now!
-        </button>
+        </button></Link>
       </div>
 
       <div className={ServicesStyles.Serv2}>
@@ -85,17 +88,16 @@ export default function OurServices() {
       </div>
 
       <div className={ServicesStyles.Serv4}>
-        <h2 className={ServicesStyles.ServHead}>CloudTops - Cloud Computing</h2>
+        <h2 className={ServicesStyles.ServHead}>Get Professionally Managed DNS!</h2>
         <div className={ServicesStyles.ServImg}>
           <Image
-            src={CloudTopUrl}
+            src={DNSManagementUrl}
             alt="Cloud Virtual Machine Illustration"
             layout="fill"
           />
         </div>
         <p className={ServicesStyles.ServDesc}>
-          Expediuz Serves You The Next Level Cloud Computer Systems, Which Can
-          Be Made Available For Any Purpose And With Any Specifications!
+          Get Rid Of Your Headache To Manage DNS And Domains. We Provide Fully Managed DNS
           <br></br>With Cloud Computing, Your Dream Of Tomorrow Won&apos;t Be A
           Dream! It&apos;s Gonna Be A Reality!
         </p>

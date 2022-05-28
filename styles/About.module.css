@@ -43,11 +43,7 @@
   font-size: 1.05vw;
   font-weight: 700;
 }
-.CertificateBox {
-  box-sizing: border-box;
-  width: 120px;
-  height: 120px;
-  border: 20px solid #969696;
-  background: #d9dbda;
-  margin: 10px;
+.Certificate {
+  position: relative;
+  height: 65vw;
 }
