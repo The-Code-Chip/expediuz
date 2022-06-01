@@ -137,7 +137,7 @@ export default function OurServices() {
           />
         </div>
         <p className={ServicesStyles.ServDesc}>
-          Do You Have A Great App Idea ? Make Your Dreams Come True With "The Code Chip"! Be It A Web App, A Desktop Or A Mobile One - We Develop Cross Platform Apps! And Yes - Innovator Gets A Monthly Percentage Of App Revenue Generated As Royalty!
+          Do You Have A Great App Idea ? Make Your Dreams Come True With &quot;The Code Chip&quot;! Be It A Web App, A Desktop Or A Mobile One - We Develop Cross Platform Apps! And Yes - Innovator Gets A Monthly Percentage Of App Revenue Generated As Royalty!
         </p>
         <button className={ServicesStyles.GetIntoItBtn}>
           Check It Out Now!
@@ -154,7 +154,7 @@ export default function OurServices() {
           />
         </div>
         <p className={ServicesStyles.ServDesc}>
-          Are You Building An App Or A Website ? Then, You Have To Use The Best Simplistic And Elegant UI/UX For Your Project, In Order To Survive in today's market. "EditEd" provides you with all! Choose From Our Library Or Order Your Own!
+          Are You Building An App Or A Website ? Then, You Have To Use The Best Simplistic And Elegant UI/UX For Your Project, In Order To Survive in today&apos;s market. &quot;EditEd&quot; provides you with all! Choose From Our Library Or Order Your Own!
         </p>
         <button className={ServicesStyles.GetIntoItBtn}>
           Check It Out Now!
