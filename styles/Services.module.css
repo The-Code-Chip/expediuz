@@ -107,9 +107,10 @@
 
 .Serv4 {
   height: 30vw;
+  background-color: #b3e0ff;
 }
 .Serv4 .ServImg {
-  top: -2.7vw;
+  top: -4.2vw;
   margin-left: 6.5vw;
   width: 30vw;
   height: 30vw;
@@ -119,7 +120,7 @@
   margin-left: 60vw;
 }
 .Serv4 .ServDesc {
-  top: -22vw;
+  top: -23vw;
   margin-left: 60vw;
 }
 .Serv4 .GetIntoItBtn {
@@ -149,17 +150,18 @@
 
 .Serv6 {
   height: 30vw;
+  background-color: #b3e0ff;
 }
 .Serv6 .ServImg {
-  top: -2.7vw;
+  top: -5.4vw;
   margin-left: 4vw;
 }
 .Serv6 .ServHead {
-  top: 5vw;
+  top: 4vw;
   margin-left: 60vw;
 }
 .Serv6 .ServDesc {
-  top: -22vw;
+  top: -22.75vw;
   margin-left: 60vw;
 }
 .Serv6 .GetIntoItBtn {
@@ -167,18 +169,234 @@
   margin-left: 60vw;
 }
 
-
-
+.Serv7 {
+  height: 30vw;
+  top: -1vw;
+}
+.Serv7 .ServImg {
+  top: -8vw;
+  width: 29vw;
+  height: 29vw;
+  margin-left: 65vw;
+}
+.Serv7 .ServHead {
+  top: 3vw;
+  margin-left: 7.2vw;
+}
+.Serv7 .ServDesc {
+  top: -25vw;
+  margin-left: 7.2vw;
+}
+.Serv7 .GetIntoItBtn {
+  top: -24vw;
+  margin-left: 7.2vw;
+}
 
 .CloudComputes {
   position: relative;
 }
 .CloudComputes .PepTalkAboutServices {
+  position: relative;
+  top: -3vw;
   text-align: center;
   font-weight: 800;
   font-size: 1.5vw;
 }
-.CloudComputes .ServDesc {
-  width: 100%;
+.CloudComputes .PepTalkAboutServices2 {
+  position: relative;
+  top: -4.6vw;
   text-align: center;
+  font-weight: 800;
+  font-size: 1.5vw;
+}
+.CloudComputes .ServicesDesc {
+  width: 72vw;
+  margin-left: 15vw;
+  position: relative;
+  top: -4vw;
+  font-weight: 700;
+  font-size: 1.05vw;
+}
+.CloudComputes .ServicesDesc2 {
+  width: 72vw;
+  position: relative;
+  top: -8.1vw;
+  margin-left: 15vw;
+  font-weight: 700;
+  font-size: 1.05vw;
+}
+
+/*Responsiveness*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .ServicesHeading {
+    position: relative;
+    top: 2vw;
+    font-size: 4.2vw;
+  }
+  .PepTalkAboutServices {
+    text-align: center;
+    width: 50vw;
+    font-size: 2.7vw;
+  }
+
+  .ServImg {
+    width: 72vw;
+    height: 72vw;
+  }
+  .ServHead {
+    top: -32vw;
+    margin-left: 1vw;
+    width: 90vw;
+    font-size: 4vw;
+  }
+  .ServDesc {
+    width: 60vw;
+    font-size: 2.1vw;
+  }
+  .GetIntoItBtn {
+    height: 7vw;
+    width: 27vw;
+    font-size: 2vw;
+  }
+
+  .Serv1 {
+    height: 150vw;
+  }
+  .Serv1 .ServImg {
+    top: 15vw;
+    margin-left: 10vw;
+  }
+  .Serv1 .ServHead {
+    top: 15vw;
+    margin-left: 20vw;
+  }
+  .Serv1 .ServDesc {
+    top: 15vw;
+    margin-left: 20vw;
+  }
+  .Serv1 .GetIntoItBtn {
+    top: 18vw;
+    margin-left: 19.25vw;
+  }
+
+  .Serv2 {
+    height: 150vw;
+  }
+  .Serv2 .ServImg {
+    top: 15vw;
+    margin-left: 10vw;
+  }
+  .Serv2 .ServHead {
+    top: 15vw;
+    margin-left: 20vw;
+  }
+  .Serv2 .ServDesc {
+    top: 15vw;
+    margin-left: 20vw;
+  }
+  .Serv2 .GetIntoItBtn {
+    top: 18vw;
+    margin-left: 19.25vw;
+  }
+
+  .Serv3 {
+    height: 150vw;
+  }
+  .Serv3 .ServImg {
+    top: 15vw;
+    margin-left: 10vw;
+  }
+  .Serv3 .ServHead {
+    top: 15vw;
+    margin-left: 20vw;
+  }
+  .Serv3 .ServDesc {
+    top: 15vw;
+    margin-left: 20vw;
+  }
+  .Serv3 .GetIntoItBtn {
+    top: 18vw;
+    margin-left: 19.25vw;
+  }
+
+  .Serv4 {
+    height: 150vw;
+  }
+  .Serv4 .ServImg {
+    top: 15vw;
+    margin-left: 10vw;
+  }
+  .Serv4 .ServHead {
+    top: 15vw;
+    margin-left: 20vw;
+  }
+  .Serv4 .ServDesc {
+    top: 15vw;
+    margin-left: 20vw;
+  }
+  .Serv4 .GetIntoItBtn {
+    top: 18vw;
+    margin-left: 19.25vw;
+  }
+
+  .Serv5 {
+    height: 150vw;
+  }
+  .Serv5 .ServImg {
+    top: 15vw;
+    margin-left: 10vw;
+  }
+  .Serv5 .ServHead {
+    top: 15vw;
+    margin-left: 20vw;
+  }
+  .Serv5 .ServDesc {
+    top: 15vw;
+    margin-left: 20vw;
+  }
+  .Serv5 .GetIntoItBtn {
+    top: 18vw;
+    margin-left: 19.25vw;
+  }
+
+  .Serv6 {
+    height: 150vw;
+  }
+  .Serv6 .ServImg {
+    top: 15vw;
+    margin-left: 10vw;
+  }
+  .Serv6 .ServHead {
+    top: 15vw;
+    margin-left: 20vw;
+  }
+  .Serv6 .ServDesc {
+    top: 15vw;
+    margin-left: 20vw;
+  }
+  .Serv6 .GetIntoItBtn {
+    top: 18vw;
+    margin-left: 19.25vw;
+  }
+
+  .Serv7 {
+    height: 150vw;
+  }
+  .Serv7 .ServImg {
+    top: 15vw;
+    margin-left: 10vw;
+  }
+  .Serv7 .ServHead {
+    top: 15vw;
+    margin-left: 20vw;
+  }
+  .Serv7 .ServDesc {
+    top: 15vw;
+    margin-left: 20vw;
+  }
+  .Serv7 .GetIntoItBtn {
+    top: 18vw;
+    margin-left: 19.25vw;
+  }
 }

@@ -25,22 +25,41 @@ export default function OurServices() {
           What is Cloud Computing ?
         </p>
 
-        <p className={ServicesStyles.ServDesc}>
+        <p className={ServicesStyles.ServicesDesc}>
           Cloud computing is the on-demand availability of computer system
           resources, especially data storage and computing power, without direct
           active management by the user.
           <br></br>
           <br></br>
-          <p className={ServicesStyles.PepTalkAboutServices}>
-            Now ! What makes us better ?
-          </p>
+        </p>
+        <p className={ServicesStyles.PepTalkAboutServices2}>
+          Now ! What makes us better ?
+        </p>
+        <p className={ServicesStyles.ServicesDesc2}>
           <br></br>
           <br></br>
-          1. We have easily scalable systems to meet your each and every requirement. You can switch the systems with just a click!
+          1. We have easily scalable systems to meet your each and every
+          requirement. You can switch the systems with just a click!
           <br></br>
-          2. Our systems support each and every Operating System available on the market. Ranging from Windows 11 to Mac OS Catalina 10.15.7, even Linux and Android, we have it all!
+          2. Our systems support each and every Operating System available on
+          the market. Ranging from Windows 11 to Mac OS Catalina 10.15.7, even
+          Linux and Android, we have it all!
           <br></br>
-          3. As our systems support Touchscreen Supported OS as well (Like Android, iOS & More), we also provide ready to use emulators.
+          3. As our systems support Touchscreen Supported OS as well (Like
+          Android, iOS & More), we also provide ready to use emulators.
+          <br></br>
+          4. We have ultrafast SSD storages and with unlimited bandwidth. Get
+          the same, undiminished performance at anywhere, anytime you wish!
+          <br></br>
+          5. We have most of the software suites available in the marketplace.
+          Enjoy it, the way you want!
+          <br></br>
+          6. We have special high-end rigs, which can be used for heavy tasks
+          like Software Development, Gaming and for Graphic - Intensive purposes
+          as well.
+          <br></br>
+          7. Your CloudTop is managed in realtime by our engineers 24x7, paired
+          with 3FA Security.
         </p>
       </div>
       <Footer />
