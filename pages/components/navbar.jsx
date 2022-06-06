@@ -113,7 +113,7 @@ export default function navbar() {
           </li>
         </ul>
 
-        <button className={Styles.ConsoleBtn}>Console</button>
+        <Link href="/console/"><button className={Styles.ConsoleBtn}>Console</button></Link>
 
         <button id="Btn1" onClick={Toggle} className={Styles.NavBtn}>
           <div id="MenuDrawer" className={Styles.MenuDrawer}>
@@ -155,7 +155,7 @@ export default function navbar() {
           </li>
           <li id="ResNavLi6" className={Styles.ResNavLi}>
             <button id="ResNavBtn6" className={Styles.ResNavBtn}>
-              <Link href="/contact">Console</Link>
+              <Link href="/console/">Console</Link>
             </button>
           </li>
         </ul>
