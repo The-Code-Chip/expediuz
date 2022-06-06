@@ -104,15 +104,15 @@
 .ResNavBtn {
   display: none;
   position: relative;
-  height: 2.7vw;
-  width: 8vw;
-  border-radius: 20px;
+  height: 4vw;
+  width: 12vw;
+  border-radius: 30px;
   border: none;
   background-color: rgb(209, 209, 209);
   font-family: "Poppins", sans-serif;
   color: rgb(0, 0, 0);
   font-weight: 700;
-  font-size: 0.81vw;
+  font-size: 1.08vw;
   cursor: pointer;
 }
 /*End Of CSS For The Navigation Bar*/
@@ -317,6 +317,25 @@
   margin-left: 61.5vw;
 }
 /*End Of CSS For Featured Service #3*/
+
+/*CSS For The Ad of Our Deep Work!*/
+.Featured4 {
+  background-color: #b3e0ff;
+  height: 50vw;
+}
+.Featured4 .FeaturedIllustration {
+  top: 7.5vw;
+  margin-left: 54vw;
+}
+.Featured4 .FeaturedHeading {
+  top: -32vw;
+  margin-left: 6.5vw;
+}
+.Featured4 .SpecialInOurServices {
+  top: -31vw;
+  margin-left: 6.5vw;
+}
+/*End Of CSS For The Ad of Our Deep Work!*/
 /*End Of CSS For Home Page*/
 
 /*Responsiveness*/
@@ -373,15 +392,15 @@
 
   .ResNavUl {
     top: -13vw;
-    margin-left: 64vw;
+    margin-left: 52vw;
   }
   .ResNavLi {
     margin: 1.5vw;
   }
   .ResNavBtn {
-    height: 5vw;
-    width: 18vw;
-    font-size: 2vw;
+    height: 8vw;
+    width: 30vw;
+    font-size: 2.7vw;
   }
   /*End Of Responsive CSS For NavBar*/
 
@@ -500,6 +519,22 @@
   .Featured3 .GetIntoItBtn {
     top: 18vw;
     margin-left: 19.25vw;
+  }
+
+  .Featured4 {
+    height: 170vw;
+  }
+  .Featured4 .FeaturedIllustration {
+    top: 10vw;
+    margin-left: 12vw;
+  }
+  .Featured4 .FeaturedHeading {
+    top: 15vw;
+    margin-left: 20vw;
+  }
+  .Featured4 .SpecialInOurServices {
+    top: 18vw;
+    margin-left: 20vw;
   }
 }
 
