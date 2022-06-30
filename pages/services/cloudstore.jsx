@@ -29,7 +29,7 @@ export default function OurServices() {
 
         <p className={ServicesStyles.ServicesDesc}>
           Cloud storage is a model of computer data storage in which the digital
-          data is stored in logical pools, said to be on "the cloud".
+          data is stored in logical pools, said to be on &quotthe cloud&quot.
           <br></br>
           <br></br>
         </p>
