@@ -41,6 +41,12 @@
   cursor: pointer;
 }
 
+.CloudComputes .GetIntoItBtn {
+  position: relative;
+  top: -5vw;
+  left: 45vw;
+}
+
 .Serv1 {
   height: 30vw;
 }
