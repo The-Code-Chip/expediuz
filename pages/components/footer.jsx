@@ -5,15 +5,24 @@ import Styles from "../../styles/Index.module.css";
 import Logo from "../../public/assets/images/vectors/Expediuz Logo (White).svg";
 
 export default function navbar() {
-    return (
-        <>
-        <footer className={Styles.Footer}>
-            <div className={Styles.FooterLogo}>
-                <Image src={Logo} className={Styles.FooterLogoImg}
-                alt="Expediuz Logo"
-                layout="fill"/>
-            </div>
-        </footer>
-        </>
-    );
+  return (
+    <>
+      <footer className={Styles.Footer}>
+        <div className={Styles.FooterLogo}>
+          <Image
+            src={Logo}
+            className={Styles.FooterLogoImg}
+            alt="Expediuz Logo"
+            layout="fill"
+          />
+        </div>
+        <h2 className={Styles.ExpediuzHead}>Expediuz Information Services</h2>
+        <Link href="/privacy">
+          <p className={Styles.Policies}>Privacy Policy</p>
+        </Link>
+        <p className={Styles.Power}>Powered By The Code Chip</p>
+        <p className={Styles.Ver}>Website Version : 2.9.a</p>
+      </footer>
+    </>
+  );
 }

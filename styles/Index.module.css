@@ -120,19 +120,52 @@
 /*Footer*/
 /*CSS For The Footer*/
 .Footer {
-  height: 20vw;
+  height: 17.5vw;
   background-color: black;
 }
 .FooterLogo {
   position: relative;
-  top: 0.5vw;
-  margin-left: 6.5vw;
+  top: 2vw;
+  margin-left: 47.5vw;
   width: 4vw;
   height: 4vw;
 }
 .FooterLogoImg {
   border-radius: 50%;
 }
+.ExpediuzHead {
+  position: relative;
+  margin-left: 42vw;
+  top: 2vw;
+  color: white;
+  font-size: large;
+}
+.Policies {
+  position: relative;
+  cursor: pointer;
+  margin-left: 46vw;
+  top: 2vw;
+  color: white;
+  font-size: large;
+  font-weight: 700;
+}
+.Power {
+  position: relative;
+  margin-left: 43vw;
+  top: 2vw;
+  color: white;
+  font-size: large;
+  font-weight: 700;
+}
+.Ver {
+  position: relative;
+  margin-left: 44vw;
+  top: 2vw;
+  color: white;
+  font-size: large;
+  font-weight: 700;
+}
+
 
 /*CSS For The Home Page*/
 /*Expediuz Slogan*/
@@ -535,6 +568,54 @@
   .Featured4 .SpecialInOurServices {
     top: 18vw;
     margin-left: 20vw;
+  }
+
+  /*Responsive CSS For Footer*/
+  .Footer {
+    height: 66vw;
+    background-color: black;
+  }
+  .FooterLogo {
+    position: relative;
+    top: 6vw;
+    margin-left: 40vw;
+    width: 18vw;
+    height: 18vw;
+  }
+  .FooterLogoImg {
+    border-radius: 50%;
+  }
+  .ExpediuzHead {
+    position: relative;
+    margin-left: 21vw;
+    top: 7vw;
+    color: white;
+    font-size: large;
+  }
+  .Policies {
+    position: relative;
+    cursor: pointer;
+    margin-left: 37vw;
+    top: 6vw;
+    color: white;
+    font-size: large;
+    font-weight: 700;
+  }
+  .Power {
+    position: relative;
+    margin-left: 25vw;
+    top: 6vw;
+    color: white;
+    font-size: large;
+    font-weight: 700;
+  }
+  .Ver {
+    position: relative;
+    margin-left: 29vw;
+    top: 6vw;
+    color: white;
+    font-size: large;
+    font-weight: 700;
   }
 }
 
