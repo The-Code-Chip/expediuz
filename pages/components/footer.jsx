@@ -17,7 +17,7 @@ export default function navbar() {
           />
         </div>
         <h2 className={Styles.ExpediuzHead}>Expediuz Information Services</h2>
-        <Link href="/privacy">
+        <Link href="">
           <p className={Styles.Policies}>Privacy Policy</p>
         </Link>
         <p className={Styles.Power}>Powered By The Code Chip</p>
