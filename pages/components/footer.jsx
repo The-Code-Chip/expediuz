@@ -21,7 +21,7 @@ export default function navbar() {
           <p className={Styles.Policies}>Privacy Policy</p>
         </Link>
         <p className={Styles.Power}>Powered By The Code Chip</p>
-        <p className={Styles.Ver}>Website Version : 2.9.a</p>
+        <p className={Styles.Ver}>Website Version : 3.0.a</p>
       </footer>
     </>
   );
