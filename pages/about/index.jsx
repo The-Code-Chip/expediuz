@@ -87,6 +87,21 @@ export default function AboutUs() {
           your code at no extra cost. A pretty much wholesome documentation also
           exists at your disposal, available round the clock!
         </p>
+        <h2 className={Styles.StandOutHead}>From The Desk Of Directors !</h2>
+        <p className={Styles.StandOutDesc}>
+          Mr. Dhritiman Basu alias DMan, a young entrepreneur director of
+          Expediuz Information Services Pvt Ltd. has left for his last journey
+          on 14th October 2021.<br></br><br></br>We are proud of his entrepreneurship to be a part
+          of Digital India Programme. But His sudden demise at the age of 32 has
+          shattered us.<br></br><br></br>We have taken over the charge as Directors with an
+          oath to fulfill his dreams of being a part of Digital India.<br></br><br></br>In this
+          context, we retained our experienced professionals who will be always
+          at your service as was given to you earlier. We value our long
+          business mutual relationship. Looking forward for your valuable patronage
+          in the years ahead as had been given to our predecessor.<br></br><br></br>
+          With Thanks,<br></br>
+          Sumita Basu & Chaitali Bardhan [Board Of Directors]
+        </p>
       </div>
 
       <Footer />

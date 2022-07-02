@@ -1,3 +1,17 @@
+@keyframes Glowing {
+  0% {
+    background-color: #000000;
+    box-shadow: 0 0 5px #000000;
+  }
+  50% {
+    background-color: #3d3d3d;
+    box-shadow: 0 0 20px #3d3d3d;
+  }
+  100% {
+    background-color: #000000;
+    box-shadow: 0 0 5px #000000;
+  }
+}
 .Services {
   text-align: center;
   height: 10vw;
@@ -39,6 +53,7 @@
   font-weight: 700;
   font-size: 0.75vw;
   cursor: pointer;
+  animation: Glowing 1300ms infinite;
 }
 
 .CloudComputes .GetIntoItBtn {
