@@ -38,7 +38,7 @@ export default function ContactUs() {
             regarding Custom Large Scaled Project Quotes!<br></br>
             Mention Me with @businessdev in Expediuz Console<br></br>
             Email Me at: businessdev@expediuz.com<br></br>
-            Message Me at: [Not Available For Time Being]
+            Message Me at: +91 98305 23508 [WhatsApp]
           </p>
           <Link href="mailto: businessdev@expediuz.com">
             <button className={Styles.GetIntoItBtn}>Email Me !</button>
