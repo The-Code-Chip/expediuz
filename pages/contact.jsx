@@ -16,7 +16,7 @@ export default function ContactUs() {
       <ul className={Styles.ContactUl}>
         <li className={Styles.ContactLi1}>
           <h2 className={Styles.ContactH2}>
-            Lead Technical Developer And Consultant<br></br>Sourashis Ghosh Roy
+            Lead Technical Developer And Consultant<br></br>Sourashis
           </h2>
           <p className={Styles.ContactP}>
             Contact Me in case our Expediuz Console stops responding or in case
@@ -31,7 +31,7 @@ export default function ContactUs() {
         </li>
         <li className={Styles.ContactLi1}>
           <h2 className={Styles.ContactH2}>
-            Lead Business Manager<br></br>Pallab Dey Roy
+            Lead Business Manager<br></br>Pallab
           </h2>
           <p className={Styles.ContactP}>
             Contact Me in case to collaborate with Expediuz or for information
@@ -46,7 +46,7 @@ export default function ContactUs() {
         </li>
         <li className={Styles.ContactLi1}>
           <h2 className={Styles.ContactH2}>
-            Lead Project Manager<br></br>Arnab Deb
+            Lead Project Manager<br></br>Bob D
           </h2>
           <p className={Styles.ContactP}>
             Contact Me in case any of your Custom Scaled Project comes to a halt

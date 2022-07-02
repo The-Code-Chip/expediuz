@@ -249,6 +249,25 @@
 /*Responsiveness*/
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  .Services {
+    height: 21vw
+  }
+  .CloudComputes .PepTalkAboutServices {
+    font-size: 3vw;
+  }
+  .CloudComputes .ServicesDesc {
+    font-size: 2.4vw;
+  }
+  .CloudComputes .PepTalkAboutServices2 {
+    font-size: 3vw;
+  }
+  .CloudComputes .ServicesDesc2 {
+    font-size: 2.4vw;
+  }
+  .CloudComputes .GetIntoItBtn {
+    position: relative;
+    margin-left: -10vw;
+  }
   .ServicesHeading {
     position: relative;
     top: 2vw;

@@ -590,7 +590,7 @@
 
   /*Responsive CSS For Footer*/
   .Footer {
-    height: 66vw;
+    height: 77vw;
     background-color: black;
   }
   .FooterLogo {
@@ -605,7 +605,7 @@
   }
   .ExpediuzHead {
     position: relative;
-    margin-left: 21vw;
+    margin-left: 12vw;
     top: 7vw;
     color: white;
     font-size: large;
@@ -613,7 +613,7 @@
   .Policies {
     position: relative;
     cursor: pointer;
-    margin-left: 37vw;
+    margin-left: 33vw;
     top: 6vw;
     color: white;
     font-size: large;
@@ -621,7 +621,7 @@
   }
   .Power {
     position: relative;
-    margin-left: 25vw;
+    margin-left: 16vw;
     top: 6vw;
     color: white;
     font-size: large;
@@ -629,7 +629,7 @@
   }
   .Ver {
     position: relative;
-    margin-left: 29vw;
+    margin-left: 21vw;
     top: 6vw;
     color: white;
     font-size: large;
