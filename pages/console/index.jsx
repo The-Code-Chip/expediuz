@@ -1,8 +1,9 @@
 import Head from "next/head";
 import Image from "next/image";
-import ServicesStyles from "../../styles/Services.module.css";
+import Styles from "../../styles/Console.module.css";
 import NavBar from "../components/navbar";
 import Footer from "../components/footer";
+import { SignInWithGooge } from "../firebase.jsx"
 
 export default function Console() {
     return (
