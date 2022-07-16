@@ -1,6 +1,6 @@
 {
   "name": "expediuz",
-  "version": "0.3.6",
+  "version": "0.4.4.a",
   "private": true,
   "scripts": {
     "dev": "next dev",

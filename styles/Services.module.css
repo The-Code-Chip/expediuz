@@ -173,8 +173,10 @@
   background-color: #b3e0ff;
 }
 .Serv6 .ServImg {
-  top: -5.4vw;
-  margin-left: 4vw;
+  top: -3.4vw;
+  margin-left: 6vw;
+  width: 27vw;
+  height: 27vw;
 }
 .Serv6 .ServHead {
   top: 4vw;
@@ -191,12 +193,12 @@
 
 .Serv7 {
   height: 30vw;
-  top: -1vw;
+  top: 5vw;
 }
 .Serv7 .ServImg {
-  top: -8vw;
-  width: 29vw;
-  height: 29vw;
+  top: -4vw;
+  width: 28vw;
+  height: 28vw;
   margin-left: 65vw;
 }
 .Serv7 .ServHead {
@@ -208,6 +210,29 @@
   margin-left: 7.2vw;
 }
 .Serv7 .GetIntoItBtn {
+  top: -24vw;
+  margin-left: 7.2vw;
+}
+
+.Serv8 {
+  height: 30vw;
+  top: 1vw;
+}
+.Serv8 .ServImg {
+  top: -6vw;
+  width: 28vw;
+  height: 28vw;
+  margin-left: 65vw;
+}
+.Serv8 .ServHead {
+  top: 3vw;
+  margin-left: 7.2vw;
+}
+.Serv8 .ServDesc {
+  top: -25vw;
+  margin-left: 7.2vw;
+}
+.Serv8 .GetIntoItBtn {
   top: -24vw;
   margin-left: 7.2vw;
 }

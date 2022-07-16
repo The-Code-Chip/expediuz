@@ -12,6 +12,7 @@ const CloudDBUrl = "/assets/images/vectors/Database Illustration.svg";
 const DNSManagementUrl =
   "/assets/images/vectors/DNS Management Illustration.svg";
 const CloudStoreUrl = "/assets/images/vectors/Cloud Storage Illustration.svg";
+const RMMVirtualAdminUrl = "/assets/images/vectors/RMM Virtual Admin Illuastration.svg";
 const CodeChipFrontendDevUrl =
   "/assets/images/vectors/Code Chip Frontend Development Illustration.svg";
 const EditEdUIUXDevUrl =
@@ -139,6 +140,26 @@ export default function OurServices() {
       </div>
 
       <div className={ServicesStyles.Serv6}>
+        <h2 className={ServicesStyles.ServHead}>RMM Virtual Admin & Monitoring!</h2>
+        <div className={ServicesStyles.ServImg}>
+          <Image
+            src={RMMVirtualAdminUrl}
+            alt="RMM Virtual Admin Illustration"
+            layout="fill"
+          />
+        </div>
+        <p className={ServicesStyles.ServDesc}>
+          Get Each And Every Data Of Your Servers Under 24x7 Realtime Monitoring!
+          We Offer 3FA Security & Encryption Systems To Keep Your Data Safe And Secure! Also Assign An Admin To Your Project Who Will Keep On Alerting Owners Regarding Alarms And Issues. Get Tension Free With Our Solutions!
+        </p>
+        <Link href="/services/virtualadminandmonitoring">
+          <button className={ServicesStyles.GetIntoItBtn}>
+            Check It Out Now!
+          </button>
+        </Link>
+      </div>
+
+      <div className={ServicesStyles.Serv7}>
         <h2 className={ServicesStyles.ServHead}>
           FrontEnd Development - <br></br>Powered By The Code Chip
         </h2>
@@ -162,7 +183,7 @@ export default function OurServices() {
         </Link>
       </div>
 
-      <div className={ServicesStyles.Serv7}>
+      <div className={ServicesStyles.Serv8}>
         <h2 className={ServicesStyles.ServHead}>
           UI/UX Development - <br></br>Powered By EditEd
         </h2>
